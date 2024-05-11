@@ -12,7 +12,7 @@ body{
   height: 100vh;
   background: linear-gradient(45deg, #f2f2f2, #e6e6e6, #ccc);
   background-size: cover;
-  background: url(../src/public/bg1.jpg);
+  background: url(../img/bg1.jpg);
 }
   
 

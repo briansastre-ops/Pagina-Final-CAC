@@ -22,10 +22,10 @@
 		<!-- <a href="#" class="logo">Food<span>Fun</span></a> -->
 		<a href="#" class="logo"><img src="../img/MaskGroup.png" alt="logo"></a>
 		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a href="#home">Inicio</a></li>
+			<li><a href="#about">Sobre nosotros</a></li>
 			<li><a href="#menu">Menu</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#contact">Contacto</a></li>
 		</ul>
 
 		<div class="h-icons">
@@ -114,7 +114,7 @@
 		<section class="menu" id="menu">
 			<div class="main-text">
 				<h2>Pizza mas populares</h2>
-				<p>We have selected for You<br> the most exquisite tastes around the world</p>
+				<p>Hemos seleccionado para ti<br> los sabores más exquisitos del mundo</p>
 			</div>
 
 			<div class="menu-content">
@@ -125,7 +125,7 @@
 							<h4>Margarita</h4>
 						</div>
 						<div class="menu-right">
-							<h5>$17.00</h5>
+							<h5>$4000</h5>
 						</div>
 					</div>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magnam.</p>
@@ -145,7 +145,7 @@
 							<h4>Montanara</h4>
 						</div>
 						<div class="menu-right">
-							<h5>$17.00</h5>
+							<h5>$5000</h5>
 						</div>
 					</div>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magnam.</p>
@@ -165,8 +165,9 @@
 							<h4>Con Carne</h4>
 						</div>
 						<div class="menu-right">
-							<h5>$17.00</h5>
+							<h5>$3000</h5>
 						</div>
+						
 					</div>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magnam.</p>
 					<div class="star">
@@ -185,7 +186,7 @@
 							<h4>Pepperoni</h4>
 						</div>
 						<div class="menu-right">
-							<h5>$17.00</h5>
+							<h5>$2000</h5>
 						</div>
 					</div>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magnam.</p>
@@ -263,6 +264,18 @@
 	
 	<!-- custom js link -->
 	<script type="text/javascript" src="../scripts/script.js"></script>
+	<script>
+		// Obtener todas las imágenes con la clase 'row'
+		const imagenes = document.querySelectorAll('.row img');
+	
+		// Agregar un event listener para cada imagen
+		imagenes.forEach(imagen => {
+			imagen.addEventListener('click', () => {
+				// Redireccionar a la página del carrito al hacer clic en la imagen
+				window.location.href = './carrito.html';
+			});
+		});
+	</script>
 	
 </body>
 </html>

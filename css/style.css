@@ -6,8 +6,10 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
+	
 }
 :root{
+	
 	--text-color: #302e29;
 	--main-color: #ff9100;
 	--second-color: #858585;
@@ -17,7 +19,7 @@
 	--p-font: 1.1rem;
 }
 body{
-	background: var(--bg-color);
+	background: url(../img/bg1.jpg);
 	color: var(--text-color);
 }
 header{
